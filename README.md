@@ -1,4 +1,4 @@
-# APEX-Agentic-Smart-Agriculture-Advisory
+
 # 🌱 Crop Recommendation System
 
 A Machine Learning-based Crop Recommendation System that recommends the most suitable crop based on soil and environmental conditions.
