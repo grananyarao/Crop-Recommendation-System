@@ -1,3 +1,30 @@
 # APEX-Agentic-Smart-Agriculture-Advisory
-An intelligent advisory platform that analyzes soil data, weather data, and crop history to provide farmers with smart crop suggestions, irrigation advice, disease alerts, and weather-based recommendations.
-<img width="1917" height="872" alt="image" src="https://github.com/user-attachments/assets/30b678b7-18d8-4aee-a41c-4df768572684" />
+A Machine Learning-based Crop Recommendation System that recommends the most suitable crop based on soil and environmental conditions.
+
+The model takes the following parameters as input:
+
+Nitrogen (N)
+Phosphorus (P)
+Potassium (K)
+Temperature
+Humidity
+Soil pH
+Rainfall
+
+A Random Forest classification model is trained on these agricultural parameters to predict the most suitable crop. The trained model is integrated into a Streamlit web application, where users can enter field conditions and receive a crop recommendation along with the prediction confidence and top 3 recommended crops.
+
+🛠️ Tech Stack
+Python
+Pandas
+Scikit-learn
+Random Forest
+Joblib
+Streamlit
+
+
+🚀 Key Features
+Crop recommendation based on soil and environmental conditions
+Machine Learning-based prediction
+Prediction confidence score
+Top 3 crop recommendations
+Interactive Streamlit interface
