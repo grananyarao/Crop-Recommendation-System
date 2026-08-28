@@ -1079,6 +1079,7 @@ img {
 .stNumberInput input,
 .stTextInput input {
     color: #000000 !important;
+    -webkit-text-fill-color: #ffffff !important;
 }
 
 
