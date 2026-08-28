@@ -1074,23 +1074,22 @@ img {
 }
 
 
+/* Input container */
+
+div[data-baseweb="input"] {
+    background: rgba(0, 0, 0, 0.25); !important
+    border-radius: 999px;
+    border: 1px solid var(--border);
+}
 /* Input boxes */
 
 .stNumberInput input,
 .stTextInput input {
     color: #ffffff !important;
     -webkit-text-fill-color: #ffffff !important;
+    background: transparent !important;
+    caret-color: #5af2a5 !important;
 }
-
-
-/* Input container */
-
-div[data-baseweb="input"] {
-    background: rgba(0, 0, 0, 0.25);
-    border-radius: 999px;
-    border: 1px solid var(--border);
-}
-
 
 /* Button */
 
