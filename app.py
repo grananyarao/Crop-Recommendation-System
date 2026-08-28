@@ -401,11 +401,11 @@ st.markdown(
     div[data-testid="stAlert"] {
         border-radius: 14px !important;
 
-        background: #d9f3df !important;
+        background: #228B22 !important;
 
         border: 1px solid #b9dfc1 !important;
 
-        color: #185c2a !important;
+        color: #ffffff !important;
     }
 
 
